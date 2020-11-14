@@ -3,8 +3,8 @@
 * main_project.c contains the main function of this unit testing.
 
 On running the Makefile:
-      1. make all : It compiles all the files related to the Project
-      2. make test : It runs all the test cases and returns PASS/FAIL 
-      3. make run : It executes the mobile.c project file
-      4. make doc : It runs Doxyfile & Makefile under documentation folder
-      5. make clean : It deletes all the files created on running the above make commands
+1. make all: It compiles all the files related to the Project
+2. make test: It runs all the test cases and returns PASS/FAIL 
+3. make run: It executes the mobile.c project file
+4. make doc: It runs Doxyfile & Makefile under documentation folder
+5. make clean: It deletes all the files created on running the above make commands
