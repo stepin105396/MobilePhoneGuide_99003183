@@ -7,9 +7,6 @@ src/my_project.c\
 test/test_project.c\
 main_project.c
 
-TEST_SRC = src/my_project.c\
-test/test_project.c
-
 INC = -Iunity\
 -Iinc\
 -Itest
