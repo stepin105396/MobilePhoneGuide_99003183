@@ -2,7 +2,7 @@
 * databook.txt is a must required file to run this project successfully. It contains all the data required for the project. So, please be careful when changing the contents of file.
 * main_project.c contains the main function of this unit testing.
 
-On running the Makefile:
+Running the Makefile:
 1. make all: It compiles all the files related to the Project
 2. make test: It runs all the test cases and returns PASS/FAIL 
 3. make run: It executes the mobile.c project file
