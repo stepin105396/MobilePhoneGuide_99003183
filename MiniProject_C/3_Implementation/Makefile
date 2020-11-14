@@ -1,21 +1,31 @@
+PROJECT_NAME = MOBILEPHONE
+
+BUILD=build
+
 SRC = unity/unity.c\
 src/my_project.c\
 test/test_project.c\
 main_project.c
 
+
+#PROJECT_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME)
+
 INC = -Iunity\
 -Iinc\
 -Itest
 
-PROJECT_NAME = MOBILEPHONE.out
+PROJECT_NAME1 = MOBILEPHONE.out
 
-$(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+all=$(PROJECT_NAME)
 
-run:$(PROJECT_NAME)
-	./${PROJECT_NAME}
+all: $(SRC)
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME).out
+
+run:$(PROJECT_NAME1)
+	./${PROJECT_NAME1}
+
 doc:
-	make -C documentation
+	make -C ./documentation
 
 clean:
 	rm -rf $(PROJECT_NAME) documentation/html
