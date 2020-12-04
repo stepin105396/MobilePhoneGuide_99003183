@@ -11,7 +11,7 @@ INC = -Iunity\
 -Iinc\
 -Itest
 
-PROJECT_NAME1 = MOBILEPHONE
+PROJECT_NAME1 = MOBILEPHONE.out
 
 all: $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME).out
@@ -21,7 +21,7 @@ run:
 	./mobile
 
 test:$(PROJECT_NAME1)
-	./${PROJECT_NAME1}.out
+	./${PROJECT_NAME1}
 	
 doc:
 	make -C ./documentation
