@@ -4,4 +4,4 @@
 
 ![cppcheck-action](https://github.com/99003183/MobilePhoneGuide/workflows/cppcheck-action/badge.svg)
 
-![cppcheck-action](https://github.com/99003183/MobilePhoneGuide/workflows/Valgrind/badge.svg)
+![cppcheck-action](https://github.com/99003183/MobilePhoneGuide/workflows/cppcheck-action/badge.svg)
